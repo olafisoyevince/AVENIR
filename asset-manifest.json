@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/AVENIR/static/css/main.58a3a58d.css",
+    "main.js": "/AVENIR/static/js/main.2bdc0565.js",
+    "static/media/whiteshoe.jpg": "/AVENIR/static/media/whiteshoe.f4228e46a934a668e486.jpg",
+    "static/media/denimperson.jpg": "/AVENIR/static/media/denimperson.03d4a02a424f1015fdac.jpg",
+    "static/media/watch.jpg": "/AVENIR/static/media/watch.abe0412add6e8ebbfea4.jpg",
+    "static/media/yellowshoe.jpg": "/AVENIR/static/media/yellowshoe.7b4bafd0e32f3f435266.jpg",
+    "static/media/othersuitguy.jpg": "/AVENIR/static/media/othersuitguy.16a0f56854f2fd385311.jpg",
+    "static/media/girlafro.jpg": "/AVENIR/static/media/girlafro.46b7288788415c732068.jpg",
+    "static/media/kimlookalike.jpg": "/AVENIR/static/media/kimlookalike.fbf235848f6d78a96480.jpg",
+    "static/media/drmartens.jpg": "/AVENIR/static/media/drmartens.ab2e80a45f0efb29e5f4.jpg",
+    "static/media/girlleaningonwall.jpg": "/AVENIR/static/media/girlleaningonwall.dcd51878e3f586e048f5.jpg",
+    "static/media/darkgirlmodel.jpg": "/AVENIR/static/media/darkgirlmodel.462131924529fa54f90c.jpg",
+    "static/media/twofemalefriends.jpg": "/AVENIR/static/media/twofemalefriends.c6bcf8ebb07b6618704c.jpg",
+    "static/media/yellowboots.jpg": "/AVENIR/static/media/yellowboots.8a9cb911499a2cd92c27.jpg",
+    "static/media/girlwithshades.jpg": "/AVENIR/static/media/girlwithshades.a34e9e3ee7fb55407773.jpg",
+    "static/media/smallfamilypotrait.jpg": "/AVENIR/static/media/smallfamilypotrait.5c3cd1b770684d6561f4.jpg",
+    "static/media/VOGUE.png": "/AVENIR/static/media/VOGUE.01de3c8edea0207dee5e.png",
+    "static/media/MailChimp.png": "/AVENIR/static/media/MailChimp.081c8937bea42c2faaf7.png",
+    "static/media/suitguy.jpg": "/AVENIR/static/media/suitguy.a1f1e6dc39c4edde1ed1.jpg",
+    "static/media/Stylist.png": "/AVENIR/static/media/Stylist.1770f732a362a7f18ba7.png",
+    "static/media/avenirLOGO.png": "/AVENIR/static/media/avenirLOGO.cc53364e0c87085c3b38.png",
+    "static/media/tutsplus-logo.png": "/AVENIR/static/media/tutsplus-logo.ab86e9221c39dee3eaa0.png",
+    "index.html": "/AVENIR/index.html",
+    "main.58a3a58d.css.map": "/AVENIR/static/css/main.58a3a58d.css.map",
+    "main.2bdc0565.js.map": "/AVENIR/static/js/main.2bdc0565.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58a3a58d.css",
+    "static/js/main.2bdc0565.js"
+  ]
+}
