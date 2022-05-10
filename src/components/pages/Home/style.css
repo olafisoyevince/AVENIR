@@ -1,0 +1,60 @@
+.header-wrapper {
+  background: linear-gradient(90deg, rgb(28, 27, 27) 0%, rgb(26, 23, 23) 100%);
+}
+
+.header {
+  height: 100vh;
+  width: min(90%, 40rem);
+  margin-inline: auto;
+  padding-top: 15%;
+}
+
+.header img {
+  width: 100%;
+}
+
+.header .the-place {
+  color: #fff;
+  letter-spacing: 1px;
+  font-weight: 500;
+}
+
+.photo-grid {
+  width: min(90%, 70.5rem);
+  margin-inline: auto;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px;
+  justify-content: center;
+}
+
+.box img {
+  height: 400px;
+  width: 300px;
+  object-fit: cover;
+  -webkit-filter: brightness(100%);
+  -webkit-transition:opacity 0.26s ease-out;
+  -moz-transition:opacity 0.26s ease-out;
+  -ms-transition:opacity 0.26s ease-out;
+  -o-transition:opacity 0.26s ease-out;
+  transition:opacity 0.26s ease-out;
+  transition:500ms;
+  position: relative;
+  top: -30%;
+}
+
+.box img:hover {
+  -webkit-filter: brightness(45%);
+  opacity:1;
+  -webkit-transform: scale(1.2);
+  -moz-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  -o-transform: scale(1.2);
+  transform: scale(1.1);
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    height: 70vh;
+  }
+}
