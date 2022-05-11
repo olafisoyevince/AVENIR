@@ -1,16 +1,13 @@
 import React from 'react';
-import './style.css'
+import './home.css'
 import Logo from '../../../assets/avenirLOGO.png'
 import { Things } from '../../Data';
-import AboutUs from '../AboutUs';
-import ContactUs from '../ContactUs';
-import { Brands } from '../../Data';
-
+import AboutUs from '../AboutUs/AboutUs';
+import ContactUs from '../ContactUs/ContactUs';
 
 const Home = () => {
   return (
     <>
-
       <div className='header-wrapper'>
         <div className='header'>
           <img src={Logo} alt="" />
@@ -19,16 +16,15 @@ const Home = () => {
       </div>
       <div className='photo-grid'>
         {
-          Things.map( thing => {
-            return (
+          Things.map( (thing) => (
               <div className='box' key={thing.id}>
                 <img src={thing.image} alt="" />
               </div>  
             )
-          })
+          )
         }
       </div>
-      <AboutUs brands={Brands}/>
+      <AboutUs />
       <ContactUs />
     </>
   )

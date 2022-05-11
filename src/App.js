@@ -1,9 +1,10 @@
+import React from 'react'
 import { Route, Routes } from 'react-router-dom';
 import './App.css';
-import Navbar from './components/Navbar';
-import Home from './components/pages/Home';
-import ContactUs from './components/pages/ContactUs';
-import AboutUs from './components/pages/AboutUs';
+import Navbar from './components/Navbar/Navbar';
+import Home from './components/pages/Home/Home';
+import ContactUs from './components/pages/ContactUs/ContactUs';
+import AboutUs from './components/pages/AboutUs/AboutUs';
 
 
 function App() {
@@ -11,12 +12,11 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path='/' element={<Home />} />
-        <Route path='contact-us' element={<ContactUs />} />
+        <Route path='/AVENIR' element={<Home />} />
         <Route path='about-us' element={<AboutUs />} />
+        <Route path='contact-us' element={<ContactUs />} />
       </Routes>
     </>
-    
   );
 }
 

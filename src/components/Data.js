@@ -112,6 +112,6 @@ export const Things = [
 export const Contact = [
   {
     id: '1',
-    body: 'Photography is an art and at AVENIR we try to capture the best images buy using the common tool called '
+    body: 'Photography is an art and at AVENIR we try to capture the best images by using the a camera. Our photos are perfect and are taken by photographers who posses unusual skill and are derermined to make our customers happy. '
   }
 ]

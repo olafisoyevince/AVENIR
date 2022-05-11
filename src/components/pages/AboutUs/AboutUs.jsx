@@ -1,7 +1,11 @@
 import React from 'react'
-import './style.css'
+import './aboutus.css'
+import { Brands } from '../../Data';
+import { Contact } from '../../Data';
 
-const AboutUs = ({brands}) => {
+
+const AboutUs = () => {
+  
   return (
     <>
       <div className='about'>
@@ -11,10 +15,11 @@ const AboutUs = ({brands}) => {
         </div>
 
         <div className="about-body">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem excepturi aliquam quos sit est! 
-            Autem tenetur magnam placeat atque fugit tempora praesentium provident! Dicta eveniet perspiciatis, 
-            error vel laborum, voluptatem nam, ipsum voluptates perferendis esse ea maiores natus quam sequi
-             veritatis dolorem. </p>
+          {
+            Contact.map((conta) => (
+              <p>{conta.body}</p>
+            ))
+          }
 
           <button className='read-more'>READ MORE</button>
         </div>
@@ -22,13 +27,12 @@ const AboutUs = ({brands}) => {
         <div className='features'>
           
           {
-            brands.map(brand => {
-              return(
+            Brands.map((brand) => (
                 <div className='feat' key={brand.id}>
                   <img src={brand.image} alt="" />
                 </div>
               )
-            })
+            )
           }
           
         </div>
@@ -38,4 +42,4 @@ const AboutUs = ({brands}) => {
   )
 }
 
-export default AboutUs
+export default AboutUs;

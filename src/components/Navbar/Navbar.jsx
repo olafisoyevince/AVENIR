@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
-import { Link } from 'react-router-dom'
-import './style.css'
+import { Link, Outlet } from 'react-router-dom'
+import './navbar.css'
 import Logo from '../../assets/avenirLOGO.png'
 
 const Navbar = () => {
@@ -14,7 +14,7 @@ const Navbar = () => {
     <>
       <div className='navbar-wrapper'>
         <nav className='navbar'>
-          <Link to='/' className='navbar-logo'>
+          <Link to='/AVENIR' className='navbar-logo'>
             <img src={Logo} alt="" />
           </Link>
           
@@ -25,7 +25,7 @@ const Navbar = () => {
           <ul className={click ? 'nav-menu active' : 'nav-menu'}>
 
             <li className='nav-item'>
-              <Link to='/' className='navlinks' onClick={closeMobileMenu}>home</Link>
+              <Link to='/AVENIR' className='navlinks' onClick={closeMobileMenu}>home</Link>
             </li>
             
             <li className='nav-item'>
@@ -39,6 +39,7 @@ const Navbar = () => {
           </ul>
         </nav>
       </div>
+      <Outlet />
     </>
   )
 };
