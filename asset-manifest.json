@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/AVENIR/static/css/main.58a3a58d.css",
-    "main.js": "/AVENIR/static/js/main.2bdc0565.js",
+    "main.js": "/AVENIR/static/js/main.d006e341.js",
     "static/media/whiteshoe.jpg": "/AVENIR/static/media/whiteshoe.f4228e46a934a668e486.jpg",
     "static/media/denimperson.jpg": "/AVENIR/static/media/denimperson.03d4a02a424f1015fdac.jpg",
     "static/media/watch.jpg": "/AVENIR/static/media/watch.abe0412add6e8ebbfea4.jpg",
@@ -24,10 +24,10 @@
     "static/media/tutsplus-logo.png": "/AVENIR/static/media/tutsplus-logo.ab86e9221c39dee3eaa0.png",
     "index.html": "/AVENIR/index.html",
     "main.58a3a58d.css.map": "/AVENIR/static/css/main.58a3a58d.css.map",
-    "main.2bdc0565.js.map": "/AVENIR/static/js/main.2bdc0565.js.map"
+    "main.d006e341.js.map": "/AVENIR/static/js/main.d006e341.js.map"
   },
   "entrypoints": [
     "static/css/main.58a3a58d.css",
-    "static/js/main.2bdc0565.js"
+    "static/js/main.d006e341.js"
   ]
 }
